@@ -1,0 +1,25 @@
+{
+  "name": "egguse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-stream-ready": "^1.0.1",
+    "dayjs": "^1.10.4",
+    "egg": "^2.29.3",
+    "egg-mysql": "^3.0.0",
+    "egg-validate": "^2.0.2",
+    "egg-view-nunjucks": "^2.3.0",
+    "stream-wormhole": "^1.1.0",
+    "svg-captcha": "^1.4.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.15.0"
+  }
+}
